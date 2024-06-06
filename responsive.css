@@ -14,7 +14,7 @@
     }
 
     .logo-nome{
-        margin: 50px 0px;
+        margin: 0px
 
     }
 
@@ -25,5 +25,23 @@
     .opcoes, ul{
         flex-direction: column;
         align-items: center;
+    }
+
+    ul li{
+        margin: 30px;
+    }
+
+
+    button{
+        margin: 50px 45px 50px 45px;
+        width: 127px;
+        height: 39px;
+        background-color: #5BC241;
+        border-radius: 10px;
+        border: none;
+        color: #FFFFFF;
+        font-weight: 300;
+        font-family: 15px;
+       
     }
 }
