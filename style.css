@@ -1,0 +1,77 @@
+body{
+    background-color: rgb(199, 195, 195);
+}
+
+.container{
+    width: 100%;
+    height: 150px;
+    background-color: #FFFFFF;
+    display: flex;
+    font-family: 'Public Sans';
+    justify-content: space-between;
+}
+
+.logo-nome{
+    display: flex;
+}
+
+img{
+    margin: 45px 0px 0px 45px;;
+}
+
+.nome{
+    font-weight: 800;
+    margin: 55px 6px;
+    font-size: 20px;
+}
+
+.opcoes ul li{
+    display: flex;
+    align-items: center;
+    transition: 0.3s ease-in-out;
+}
+
+.opcoes{
+    display: flex;
+    
+}
+
+
+ul{
+    list-style: none;
+    display: flex;    
+}
+
+li{
+    margin: 59px 30px 59px 0px;
+    font-weight: 400;
+    font-size: 16px;
+
+}
+
+button{
+    margin: 50px 45px 50px 0px;
+    width: 127px;
+    height: 39px;
+    background-color: #5BC241;
+    border-radius: 10px;
+    border: none;
+    color: #FFFFFF;
+    font-weight: 300;
+    font-family: 15px;
+}
+
+li:hover{
+    padding: 25px 20px;
+    background-color: #5BC241;
+    color: #FFFFFF;
+}
+
+
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+

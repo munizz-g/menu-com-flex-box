@@ -1,0 +1,15 @@
+@media(max-width: 650px) {
+    header{
+        flex-direction: column;
+    }
+
+  
+
+    .opcoes{
+        flex-direction: column;
+    }
+
+    .opcoes ul{
+        flex-direction: column;
+    }
+}
