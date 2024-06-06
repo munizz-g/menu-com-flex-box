@@ -33,6 +33,7 @@ img{
 
 .opcoes{
     display: flex;
+    justify-content: center;
     
 }
 

@@ -1,15 +1,29 @@
-@media(max-width: 650px) {
-    header{
+@media(max-width: 720px){
+    body{
+        display:flex;
         flex-direction: column;
     }
-
-  
-
-    .opcoes{
+    
+    .container {
         flex-direction: column;
+        align-items: center;        
     }
 
-    .opcoes ul{
+    .logo-nome h1{
+        font-size: 40px;  
+    }
+
+    .logo-nome{
+        margin: 50px 0px;
+
+    }
+
+    .nome{
+        margin: 40px 10px
+    }
+
+    .opcoes, ul{
         flex-direction: column;
+        align-items: center;
     }
 }
